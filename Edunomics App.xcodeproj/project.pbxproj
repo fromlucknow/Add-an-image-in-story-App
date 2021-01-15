@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B025BFF325B15B2B00A22EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025BFF225B15B2B00A22EDF /* AppDelegate.swift */; };
+		B025BFF525B15B2B00A22EDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025BFF425B15B2B00A22EDF /* SceneDelegate.swift */; };
+		B025BFF725B15B2B00A22EDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025BFF625B15B2B00A22EDF /* ViewController.swift */; };
+		B025BFFA25B15B2B00A22EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B025BFF825B15B2B00A22EDF /* Main.storyboard */; };
+		B025BFFC25B15B3100A22EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B025BFFB25B15B3100A22EDF /* Assets.xcassets */; };
+		B025BFFF25B15B3100A22EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B025BFFD25B15B3100A22EDF /* LaunchScreen.storyboard */; };
+		B025C00A25B15B3100A22EDF /* Edunomics_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025C00925B15B3100A22EDF /* Edunomics_AppTests.swift */; };
+		B025C01525B15B3100A22EDF /* Edunomics_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025C01425B15B3100A22EDF /* Edunomics_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B025C00625B15B3100A22EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B025BFE725B15B2B00A22EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B025BFEE25B15B2B00A22EDF;
+			remoteInfo = "Edunomics App";
+		};
+		B025C01125B15B3100A22EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B025BFE725B15B2B00A22EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B025BFEE25B15B2B00A22EDF;
+			remoteInfo = "Edunomics App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B025BFEF25B15B2B00A22EDF /* Edunomics App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edunomics App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B025BFF225B15B2B00A22EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B025BFF425B15B2B00A22EDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B025BFF625B15B2B00A22EDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B025BFF925B15B2B00A22EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B025BFFB25B15B3100A22EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B025BFFE25B15B3100A22EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B025C00025B15B3100A22EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B025C00525B15B3100A22EDF /* Edunomics AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edunomics AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B025C00925B15B3100A22EDF /* Edunomics_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edunomics_AppTests.swift; sourceTree = "<group>"; };
+		B025C00B25B15B3100A22EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B025C01025B15B3100A22EDF /* Edunomics AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edunomics AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B025C01425B15B3100A22EDF /* Edunomics_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edunomics_AppUITests.swift; sourceTree = "<group>"; };
+		B025C01625B15B3100A22EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B025BFEC25B15B2B00A22EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B025C00225B15B3100A22EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B025C00D25B15B3100A22EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B025BFE625B15B2B00A22EDF = {
+			isa = PBXGroup;
+			children = (
+				B025BFF125B15B2B00A22EDF /* Edunomics App */,
+				B025C00825B15B3100A22EDF /* Edunomics AppTests */,
+				B025C01325B15B3100A22EDF /* Edunomics AppUITests */,
+				B025BFF025B15B2B00A22EDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B025BFF025B15B2B00A22EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B025BFEF25B15B2B00A22EDF /* Edunomics App.app */,
+				B025C00525B15B3100A22EDF /* Edunomics AppTests.xctest */,
+				B025C01025B15B3100A22EDF /* Edunomics AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B025BFF125B15B2B00A22EDF /* Edunomics App */ = {
+			isa = PBXGroup;
+			children = (
+				B025BFF225B15B2B00A22EDF /* AppDelegate.swift */,
+				B025BFF425B15B2B00A22EDF /* SceneDelegate.swift */,
+				B025BFF625B15B2B00A22EDF /* ViewController.swift */,
+				B025BFF825B15B2B00A22EDF /* Main.storyboard */,
+				B025BFFB25B15B3100A22EDF /* Assets.xcassets */,
+				B025BFFD25B15B3100A22EDF /* LaunchScreen.storyboard */,
+				B025C00025B15B3100A22EDF /* Info.plist */,
+			);
+			path = "Edunomics App";
+			sourceTree = "<group>";
+		};
+		B025C00825B15B3100A22EDF /* Edunomics AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B025C00925B15B3100A22EDF /* Edunomics_AppTests.swift */,
+				B025C00B25B15B3100A22EDF /* Info.plist */,
+			);
+			path = "Edunomics AppTests";
+			sourceTree = "<group>";
+		};
+		B025C01325B15B3100A22EDF /* Edunomics AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B025C01425B15B3100A22EDF /* Edunomics_AppUITests.swift */,
+				B025C01625B15B3100A22EDF /* Info.plist */,
+			);
+			path = "Edunomics AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B025BFEE25B15B2B00A22EDF /* Edunomics App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B025C01925B15B3100A22EDF /* Build configuration list for PBXNativeTarget "Edunomics App" */;
+			buildPhases = (
+				B025BFEB25B15B2B00A22EDF /* Sources */,
+				B025BFEC25B15B2B00A22EDF /* Frameworks */,
+				B025BFED25B15B2B00A22EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Edunomics App";
+			productName = "Edunomics App";
+			productReference = B025BFEF25B15B2B00A22EDF /* Edunomics App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B025C00425B15B3100A22EDF /* Edunomics AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B025C01C25B15B3100A22EDF /* Build configuration list for PBXNativeTarget "Edunomics AppTests" */;
+			buildPhases = (
+				B025C00125B15B3100A22EDF /* Sources */,
+				B025C00225B15B3100A22EDF /* Frameworks */,
+				B025C00325B15B3100A22EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B025C00725B15B3100A22EDF /* PBXTargetDependency */,
+			);
+			name = "Edunomics AppTests";
+			productName = "Edunomics AppTests";
+			productReference = B025C00525B15B3100A22EDF /* Edunomics AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B025C00F25B15B3100A22EDF /* Edunomics AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B025C01F25B15B3100A22EDF /* Build configuration list for PBXNativeTarget "Edunomics AppUITests" */;
+			buildPhases = (
+				B025C00C25B15B3100A22EDF /* Sources */,
+				B025C00D25B15B3100A22EDF /* Frameworks */,
+				B025C00E25B15B3100A22EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B025C01225B15B3100A22EDF /* PBXTargetDependency */,
+			);
+			name = "Edunomics AppUITests";
+			productName = "Edunomics AppUITests";
+			productReference = B025C01025B15B3100A22EDF /* Edunomics AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B025BFE725B15B2B00A22EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B025BFEE25B15B2B00A22EDF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B025C00425B15B3100A22EDF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B025BFEE25B15B2B00A22EDF;
+					};
+					B025C00F25B15B3100A22EDF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B025BFEE25B15B2B00A22EDF;
+					};
+				};
+			};
+			buildConfigurationList = B025BFEA25B15B2B00A22EDF /* Build configuration list for PBXProject "Edunomics App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B025BFE625B15B2B00A22EDF;
+			productRefGroup = B025BFF025B15B2B00A22EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B025BFEE25B15B2B00A22EDF /* Edunomics App */,
+				B025C00425B15B3100A22EDF /* Edunomics AppTests */,
+				B025C00F25B15B3100A22EDF /* Edunomics AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B025BFED25B15B2B00A22EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B025BFFF25B15B3100A22EDF /* LaunchScreen.storyboard in Resources */,
+				B025BFFC25B15B3100A22EDF /* Assets.xcassets in Resources */,
+				B025BFFA25B15B2B00A22EDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B025C00325B15B3100A22EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B025C00E25B15B3100A22EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B025BFEB25B15B2B00A22EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B025BFF725B15B2B00A22EDF /* ViewController.swift in Sources */,
+				B025BFF325B15B2B00A22EDF /* AppDelegate.swift in Sources */,
+				B025BFF525B15B2B00A22EDF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B025C00125B15B3100A22EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B025C00A25B15B3100A22EDF /* Edunomics_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B025C00C25B15B3100A22EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B025C01525B15B3100A22EDF /* Edunomics_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B025C00725B15B3100A22EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B025BFEE25B15B2B00A22EDF /* Edunomics App */;
+			targetProxy = B025C00625B15B3100A22EDF /* PBXContainerItemProxy */;
+		};
+		B025C01225B15B3100A22EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B025BFEE25B15B2B00A22EDF /* Edunomics App */;
+			targetProxy = B025C01125B15B3100A22EDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B025BFF825B15B2B00A22EDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B025BFF925B15B2B00A22EDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B025BFFD25B15B3100A22EDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B025BFFE25B15B3100A22EDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B025C01725B15B3100A22EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B025C01825B15B3100A22EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B025C01A25B15B3100A22EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Edunomics App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Edunomics-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B025C01B25B15B3100A22EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Edunomics App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Edunomics-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B025C01D25B15B3100A22EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Edunomics AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Edunomics-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edunomics App.app/Edunomics App";
+			};
+			name = Debug;
+		};
+		B025C01E25B15B3100A22EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Edunomics AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Edunomics-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edunomics App.app/Edunomics App";
+			};
+			name = Release;
+		};
+		B025C02025B15B3100A22EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Edunomics AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Edunomics-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Edunomics App";
+			};
+			name = Debug;
+		};
+		B025C02125B15B3100A22EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Edunomics AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Edunomics-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Edunomics App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B025BFEA25B15B2B00A22EDF /* Build configuration list for PBXProject "Edunomics App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B025C01725B15B3100A22EDF /* Debug */,
+				B025C01825B15B3100A22EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B025C01925B15B3100A22EDF /* Build configuration list for PBXNativeTarget "Edunomics App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B025C01A25B15B3100A22EDF /* Debug */,
+				B025C01B25B15B3100A22EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B025C01C25B15B3100A22EDF /* Build configuration list for PBXNativeTarget "Edunomics AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B025C01D25B15B3100A22EDF /* Debug */,
+				B025C01E25B15B3100A22EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B025C01F25B15B3100A22EDF /* Build configuration list for PBXNativeTarget "Edunomics AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B025C02025B15B3100A22EDF /* Debug */,
+				B025C02125B15B3100A22EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B025BFE725B15B2B00A22EDF /* Project object */;
+}
