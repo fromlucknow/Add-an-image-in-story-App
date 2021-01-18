@@ -15,6 +15,8 @@
 		B025BFFF25B15B3100A22EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B025BFFD25B15B3100A22EDF /* LaunchScreen.storyboard */; };
 		B025C00A25B15B3100A22EDF /* Edunomics_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025C00925B15B3100A22EDF /* Edunomics_AppTests.swift */; };
 		B025C01525B15B3100A22EDF /* Edunomics_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025C01425B15B3100A22EDF /* Edunomics_AppUITests.swift */; };
+		B025C02725B1604D00A22EDF /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025C02525B1604D00A22EDF /* ImageCollectionViewCell.swift */; };
+		B025C02825B1604D00A22EDF /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B025C02625B1604D00A22EDF /* ImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B025C01025B15B3100A22EDF /* Edunomics AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edunomics AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B025C01425B15B3100A22EDF /* Edunomics_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edunomics_AppUITests.swift; sourceTree = "<group>"; };
 		B025C01625B15B3100A22EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B025C02525B1604D00A22EDF /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		B025C02625B1604D00A22EDF /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B025BFFB25B15B3100A22EDF /* Assets.xcassets */,
 				B025BFFD25B15B3100A22EDF /* LaunchScreen.storyboard */,
 				B025C00025B15B3100A22EDF /* Info.plist */,
+				B025C02525B1604D00A22EDF /* ImageCollectionViewCell.swift */,
+				B025C02625B1604D00A22EDF /* ImageCollectionViewCell.xib */,
 			);
 			path = "Edunomics App";
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				B025BFFF25B15B3100A22EDF /* LaunchScreen.storyboard in Resources */,
 				B025BFFC25B15B3100A22EDF /* Assets.xcassets in Resources */,
+				B025C02825B1604D00A22EDF /* ImageCollectionViewCell.xib in Resources */,
 				B025BFFA25B15B2B00A22EDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				B025BFF725B15B2B00A22EDF /* ViewController.swift in Sources */,
 				B025BFF325B15B2B00A22EDF /* AppDelegate.swift in Sources */,
+				B025C02725B1604D00A22EDF /* ImageCollectionViewCell.swift in Sources */,
 				B025BFF525B15B2B00A22EDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
